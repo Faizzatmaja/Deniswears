@@ -9,12 +9,12 @@
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "vite build",
+    "buildCommand": "npm run build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
-        "APP_URL": "",
+        "APP_URL": "https://deniswears-54enim5zq-faizatmaja-1586s-projects.vercel.app/",
         "APP_KEY": "base64:jK9vPqgmfaAbwdun9DQsAhy+g2PlAkeC+wQ9hR0te0Y=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
